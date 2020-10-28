@@ -1,4 +1,4 @@
-/*
+<!--
 
 Content and Code countesy : FreeCodeCamp.org <3
 
@@ -17,17 +17,18 @@ h1 {
 
 One example where variables are useful is when a number of elements need to be the same color. If that color is changed, the only place to edit the code is the variable value.
 
-*/
+-->
 
 <style type='text/scss'>
   
+  // The SASS variable.
   $text-color: red;
 
   .header{
     text-align: center;
   }
   .blog-post, h2 {
-    color: $text-color;
+    color: $text-color;  // The SASS variable being referred to!
   }
 </style>
 
